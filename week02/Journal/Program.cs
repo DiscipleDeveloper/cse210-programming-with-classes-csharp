@@ -1,4 +1,5 @@
-// In lines 13 - 18 and 42 = I simply made the interaction with the user more friendly by asking the name. And displaying the name in parts where it matters. 
+// In lines 14 - 19 and 43 = I simply made the interaction with the user more friendly by asking the name. And displaying the name in parts where it matters. 
+// In line 51 and 58 made user just to input the name of their Journal not adding .txt anymore. 
 using System;
 
 class Program
@@ -47,14 +48,14 @@ class Program
             else if (choice == 3)
             {
 
-                Console.WriteLine("What is the name of your Journal?");
+                Console.WriteLine("What is the name of your Journal? 'Don't add .txt just the name of your journal.'");
                 string fileName = Console.ReadLine();
                 userJournal.LoadFromFile($"{fileName}.txt");
             }
 
             else if (choice == 4)
             {
-                Console.WriteLine("What is the name of your Journal?");
+                Console.WriteLine("What is the name of your Journal? 'Don't add .txt just the name of your journal.'");
                 string fileName = Console.ReadLine();
                 userJournal.SaveToFile($"{fileName}.txt");
             }
