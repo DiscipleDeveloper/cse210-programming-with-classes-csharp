@@ -1,3 +1,4 @@
+// In lines 13 - 18 and 42 = I simply made the interaction with the user more friendly by asking the name. And displaying the name in parts where it matters. 
 using System;
 
 class Program
